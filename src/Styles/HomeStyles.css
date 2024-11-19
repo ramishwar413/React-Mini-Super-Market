@@ -1,0 +1,105 @@
+.home{
+    height:90vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5px;
+    margin-top: 0;
+     
+}
+.home h2{
+    cursor: pointer;
+    height: 50px;
+    width: 180px;
+    text-decoration: none;
+    color: greenyellow;
+    font-size: 20px;
+    padding-bottom: -10px;
+}
+
+.headerContainer button:hover{
+    background-color: #07090a;
+    cursor: pointer;
+    transition: o.3s ease-in;
+}
+/* Mobile view */
+@media only screen and (max-width: 600px){
+    .home {
+    justify-content: center;
+    align-items: center;
+    }
+}
+   
+/* Menu Section */
+  .Main{
+    font-size: 11px;
+    margin-bottom: 5px;
+    background-color:darkslategray;
+  }
+  .f1 h1{
+  margin:3px;
+  color: yellow;
+  } 
+  .f1 div h1{
+    background-color: rgb(255, 0, 51);
+    width: fit-content;
+    border-radius: 4px;
+  }
+  .f1{
+    display: flex;
+    flex-direction: column;
+    gap:3px;
+    text-align: center;    
+  }
+  .f1 > div {
+    display: flex;
+    justify-content: center;
+    gap:4px;
+}
+.f1 > div > img {
+    padding:1px;
+    height: 250px;
+    width: 20%;
+}
+/* ContactUs section*/
+  .Contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    margin:10px;
+    font-size: 10px;
+    text-align: center;
+  }
+  @media(max-width: 600px){
+    .content{
+    justify-content: center;
+    align-items: center;
+    }
+  }
+.Contactimage{
+  width:100%;
+  height: 600px;
+}
+.h4 {
+  background-color: rgb(255, 0, 51);
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  left: 627px;
+  border-radius: 20px;
+  align-items:center;
+}
+.content{
+  align-items:center;
+}
+.cust {
+  height: 410px;
+  width: 1400px;
+}
+  
